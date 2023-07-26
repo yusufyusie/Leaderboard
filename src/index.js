@@ -1,12 +1,12 @@
 import './assets/style.css';
-import './modules/api.js';
+import API from  './modules/api.js';
 
  const nameElement = document.getElementById('your-name');
  const scoreElement = document.getElementById('your-score');
  const btnRefresh = document.querySelector('.btn-refresh');
  const btnSubmit = document.querySelector('.btn-submit-score');
  const leadersList = document.querySelector('.leader-view-list');
- const api = new api();
+ const api = new API();
 
    btnRefresh.addEventListener('click', async () => {
     displayLeaders();
