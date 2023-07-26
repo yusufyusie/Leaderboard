@@ -1,5 +1,5 @@
 import './assets/style.css';
-import './modules/payer.js';
+import './modules/api.js';
 import {
     nameElement,
     scoreElement,
