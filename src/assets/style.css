@@ -47,30 +47,30 @@ h2 {
   gap: 20px;
 }
 
-.scores-header {
+.leaders-header {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.scores-header h2,
+.leaders-header h2,
 .add-scores h2 {
   font-size: 1.9rem;
 }
 
-.scores-container {
+.leaders-container {
   border: 2px solid #000;
 }
 
-.scores-container ul {
+.leaders-container ul {
   list-style: none;
 }
 
-.scores-container ul li {
+.leaders-container ul li {
   padding: 3px 10px;
 }
 
-.scores-container ul li:nth-child(even) {
+.leaders-container ul li:nth-child(even) {
   background-color: #ccc;
 }
 
