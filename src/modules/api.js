@@ -24,4 +24,19 @@ class API {
         throw error('Something is wrong');
       });
   };
+
+  getScores = async () => {
+    const response = await fetch(`${this.url + this.gameId}/scores`, {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+    });
+    const scoreData = await response.json();
+    return scoreData;
+  };
 }
+
+
+export default API;
