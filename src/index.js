@@ -6,6 +6,7 @@ import './modules/api.js';
  const btnRefresh = document.querySelector('.btn-refresh');
  const btnSubmit = document.querySelector('.btn-submit-score');
  const leadersList = document.querySelector('.leader-view-list');
+ const api = new API();
 
    btnRefresh.addEventListener('click', async () => {
     displayLeaders();
