@@ -1,2 +1,2 @@
-import './style.css';
-import './modules/Player.js';
+import './assets/style.css';
+import './modules/payer.js';
