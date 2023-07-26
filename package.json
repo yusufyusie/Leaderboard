@@ -1,0 +1,14 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "This Leaderboard app uses an API to receive and display the scores of the game of different players. It is built with HTML, CSS and JavaScript.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
