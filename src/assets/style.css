@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #6f42c1;
+}
+
+.header {
+  padding: 5% 10% 5%;
+  padding-left: 5%;
+}
+
+h1 {
+  background-color: rgba(47, 23, 15, 0.9);
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  line-height: 1em;
+  color: #e6a756;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  align-items: flex-start;
+  gap: 12%;
+  padding: 1rem;
+  background-color: #adb5bd;
+}
+
+.recent-scores,
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scores-header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.scores-header h2,
+.add-scores h2 {
+  font-size: 1.9rem;
+}
+
+.scores-container {
+  border: 2px solid #000;
+}
+
+.scores-container ul {
+  list-style: none;
+}
+
+.scores-container ul li {
+  padding: 3px 10px;
+}
+
+.scores-container ul li:nth-child(even) {
+  background-color: #ccc;
+}
+
+input {
+  padding: 5px 10px;
+  outline: 1px solid #000;
+}
+
+.btn-submit-score {
+  width: 70px;
+  margin-right: 0;
+  margin-left: auto;
+}
