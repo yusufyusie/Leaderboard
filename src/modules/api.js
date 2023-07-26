@@ -1,5 +1,4 @@
-import {successMessage} from '../domElement.js'
-
+const successMessage = document.getElementById('success-message-id');
 class API {
     constructor() {
       this.gameId = 'Zl4d7IVkemOTTVg2fUdz';
