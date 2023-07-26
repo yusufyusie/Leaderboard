@@ -1,7 +1,7 @@
 const successMessage = document.getElementById('success-message-id');
 class API {
     constructor() {
-      this.gameId = 'Zl4d7IVkemOTTVg2fUdz';
+      this.gameId = 'hOOJqAq1A3QpeN0xQUs2';
       this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
     }
 
@@ -36,6 +36,5 @@ class API {
     return scoreData;
   };
 }
-
 
 export default API;

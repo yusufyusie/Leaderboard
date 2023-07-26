@@ -26,7 +26,7 @@ const displayLeaders = async () => {
     e.preventDefault();
     const playerName = nameElement.value;
     const playerScore = scoreElement.value;
-    await api.addScore(playerName, playerScore);
+    await api.addLeader(playerName, playerScore);
     nameElement.value = '';
     scoreElement.value = '';
   });
