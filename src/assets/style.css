@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,700&display=swap");
 
 * {
   margin: 0;
@@ -8,36 +8,53 @@
 }
 
 body {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   max-width: 1000px;
   margin: auto;
   background-color: #6f42c1;
 }
 
 .header {
-  padding: 5% 10% 5%;
+  padding: 5% 1% 5%;
   padding-left: 5%;
 }
 
 h1 {
   background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 4rem;
-  line-height: 1em;
+  line-height: 4rem;
   color: #e6a756;
+  font-weight: 700;
+  padding: 0.375rem;
 }
 
 h2 {
   font-size: 1.5rem;
+  padding: 0.375rem;
 }
 
 .main {
   display: grid;
   grid-template-columns: 6fr 4fr;
   align-items: flex-start;
-  gap: 12%;
-  padding: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
   background-color: #adb5bd;
+}
+
+@media (max-width: 678px) {
+  .main {
+    grid-template-columns: auto;
+  }
+
+  .leader-section {
+    width: 65%;
+  }
+
+  .recent-scores {
+    order: 1;
+  }
 }
 
 .recent-scores,
@@ -62,6 +79,16 @@ h2 {
   border: 2px solid #000;
 }
 
+.form-add-leaders {
+  border: 2px solid #000;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
 .leaders-container ul {
   list-style: none;
 }
@@ -79,8 +106,33 @@ input {
   outline: 1px solid #000;
 }
 
+.btn-refresh {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.375rem;
+  line-height: 1;
+  border-color: #fec810;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5);
+}
+
+.btn-refresh:hover {
+  background-color: #fec503;
+  color: #fff;
+}
+
 .btn-submit-score {
-  width: 70px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.375rem;
+  line-height: 1;
   margin-right: 0;
   margin-left: auto;
+  border-color: #fec810;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5);
+}
+
+.btn-submit-score:hover {
+  background-color: #fec503;
+  color: #fff;
+  cursor: pointer;
 }

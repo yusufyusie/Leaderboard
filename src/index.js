@@ -29,6 +29,7 @@ btnSubmit.addEventListener('click', async (e) => {
   await api.addLeader(playerName, playerScore);
   nameElement.value = '';
   scoreElement.value = '';
+  await displayLeaders();
 });
 
 document.addEventListener('DOMContentLoaded', displayLeaders);
