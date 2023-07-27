@@ -109,5 +109,20 @@ input {
   color: #fff;
 }
 
+.btn-submit-score {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.375rem;
+  line-height: 1;
+  margin-right: 0;
+  margin-left: auto;
+  border-color: #fec810;
+  box-shadow: 0 0 0 .2rem rgba(254,209,55,.5)
+}
 
+.btn-submit-score:hover {
+  background-color: #fec503;
+  color: #fff;
+  cursor: pointer;
+}
 
