@@ -95,7 +95,19 @@ input {
   outline: 1px solid #000;
 }
 
+.btn-refresh {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.375rem;
+  line-height: 1;
+  border-color: #fec810;
+  box-shadow: 0 0 0 .2rem rgba(254,209,55,.5)
+}
 
+.btn-refresh:hover {
+  background-color: #fec503;
+  color: #fff;
+}
 
 
 
