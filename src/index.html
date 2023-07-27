@@ -15,19 +15,21 @@
             <h2>Recent scores</h2>
             <button class="btn-refresh">Refresh</button>
           </div>
-          <div class="leaders-container">
+          <article class="leaders-container">
             <ul class="leader-view-list">
               <li>
                 <span>Loading .....</span><span>0%</span>
               </li>
             </ul>
-          </div>
+          </article>
         </section>
         <section class="leader-section add-scores">
           <h2>Add your score</h2>
-          <input type="text" id="your-name" placeholder="Your name">
-          <input type="text" id="your-score" placeholder="Your score">
-          <button type="submit" class="btn-submit-score">Submit</button>
+          <form action="" class="form-add-leaders">
+            <input type="text" id="your-name" placeholder="Your name">
+            <input type="text" id="your-score" placeholder="Your score">
+            <button type="submit" class="btn-submit-score">Submit</button>
+          </form>
         </section>
         <p id="success-message-id"></p>
       </main>
