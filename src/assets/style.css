@@ -37,8 +37,8 @@ h2 {
   display: grid;
   grid-template-columns: 6fr 4fr;
   align-items: flex-start;
-  gap: 12%;
-  padding: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
   background-color: #adb5bd;
 }
 
